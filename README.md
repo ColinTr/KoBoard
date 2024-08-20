@@ -48,6 +48,8 @@ The web application is built using React and provides a responsive interface for
 - <b>Koulette:</b> Task assignment roulette.
 - <b>Kusique:</b> Spotify integration with geolocation-based playlist.
 
+![React web page illustration](illustration_react.png)
+
 #### OAuth Authentication
 
 OAuth authentication is implemented to allow users to log in using their Google accounts. The process involves token validation and redirection to ensure secure access.
@@ -56,6 +58,8 @@ OAuth authentication is implemented to allow users to log in using their Google 
 ### 3. Android application
 
 The Android application mirrors the functionalities of the web application, including login, notes, chat, ...
+
+![Android application illustration](illustration_android.png)
 
 
 ## 💻 Installation 
