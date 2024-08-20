@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+
+  sample-prod:
+    container_name: koboard_react
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_KOBOARD_API_URI=http://api.koboard.guillaumebchd.me
+      - SKIP_PREFLIGHT_CHECK=true
+    networks:
+      - rvp_default
+
+networks:
+  rvp_default:
+    external:
+      name: rvp_default
